@@ -1,5 +1,5 @@
 {
-  "name": "MAXX-XMD WhatsApp Bot",
+  "name": "SPARK-X",
   "description": "The most powerful WhatsApp multi-device bot with 580+ commands. Deploy in one click.",
   "keywords": ["whatsapp", "bot", "nodejs", "maxx-xmd"],
   "website": "https://pair.maxxtech.co.ke",
@@ -10,17 +10,17 @@
     "SESSION_ID": {
       "description": "MAXX-XMD SESSION ID. Get it from https://pair.maxxtech.co.ke",
       "required": false,
-      "value": ""
+      "value": "MAXX-XMD~H4sIAAAAAAAAA5VUy47qRhD9lai3oAt+AUYaKfgBeIaXwTxMdBeN3TaNH+1xt409VywiRcoPROFuUP4gUaIom/wUnxB5nneRXE286XZXddWpOnX6E4gJpugOlaD7CSQpziFD1ZaVCQJdoGSeh1JQBy5kEHTBdIRr+01fJ8xq297xqG/9YF7cFz5yCNWlYjvTmttkl8905wac6iDJdiF2vhIwEKe9aMljs9+fTCmJljyZx51pYXFi0Uq2UTYiZrAcrltN4wacqogQpzj29WSPIpTC8A6VM4jT98Hn9YdSHBM2zwVVwtNA6rF7rKfZvqTNmtMaN6wHhlErijbH98F/2K5qTqu/l5SJ1yojFkm5ppMHJq12Gykb3+poRbTQ2MxD8wk+xX6MXMNFMcOsfHffOwOvN1OtHe7Ls2i1aS3uPHK3IB4OlrJKSd4YxBROd0XIj98HfAnv6cYuVsN1Ycmub7rq5t6weY31eVGMrF1UthInXk1G2P8S+Cx9mZXg//R9PKXL8Xi8yj2oNPBg3pYUqHgG5li2bVCrEQ9p8LAo28pSfB98W+bHXGZsUyjXCOk86EqerWy+sRHCGh6PFveCYqiTks+Gyzf4kGXp11BujtakZgXCRJziHp0NNk1LaKz0mSbYuF86K4NbF6xYc1PF7y07mrA2tYkFFcM0DwuD2lshcPkW1YeJCRNna+Fw1OQO5s1jRQEqDRd0uVMdpMjHlKWQYRJXZ+1OHUA3XyAnReyxu4A1p4EUBau7FAWLxtDT7g0SDTgbPsCpZWy261FL3wm3e6sQb0AdJClxEKXIHWLKSFqOEaXQRxR0v/tYBzEq2BNvVbYOJ9SBh1PKlnGWhAS6L6y+WqHjkCxmizJ21GqDUtBtvh0jxnDs06qRWQxTZ49zpO4ho6DrwZCi1xJRilzQZWmGXmWrErfqvGZ2eLuvi6AOokdGsFupUxLbstCWBIFvd+X2t/TDsQoLk+RDjBiogxhW3uB6Of9yvZx/vV4+//DN9XL+6Xo5/3a9nP+6Xs6/P69/Xy/nPyvjz08Hn79/Xn+8Xs5/VA6gDsLHtJwgSaLc6rRluSWJnSpzZTi9VlwBdBGDOKSgC1Sj5nVcc6DfajPmiINBz/B7qt8Dbx16mbUnMtvLZSu0eftQUxvHvjoIh72tL/K270lKSQ9yfDisdP52PY2Cm38JArqAJLd34rE17uVsLRqbfozW9kFemJ5JNM1Yzw4+CxdiPk38WuEYNWVPigYJR36+bsiysLubSXoMzQOC3FqMxdwkQ3GlVYNZBy7KsYO+TJb53Ci0nazwDyPzdnRYEC7njslwv0xuM13ZqO6Y44POZJcnfH/eNhO504ntSZvWjPuJYkqa2SRuObJUy3PnWhYXqnbAzyp4VGH4/PrhxwGtuK9+PYweH5Nnjv+DlBfA1aw2T/Uv7j4/S/8hbQVx/WmynkRGw887irlP5seBPZ1ExrBmOqnR2IoiN5/g1SFJwOn0sQ6SEDKPpBHoAhrtIKiDlGTV4BuxR76SSe0ZhtrzJ1W5IaSs9yYmC0eIMhgloMu121KzJTcr7Vdes5QkQ0j3oAuEKOQOi0oZZS9JFgyyF3GC3uMXzMDpH7f5khO4BwAA"
     },
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number with country code (e.g. 254700000000)",
       "required": false,
-      "value": ""
+      "value": "254793753327"
     },
     "BOT_NAME": {
       "description": "Name for your bot",
       "required": false,
-      "value": "MAXX-XMD"
+      "value": "SPARK-X"
     },
     "PREFIX": {
       "description": "Command prefix (e.g. . or ! or /)",
@@ -40,12 +40,12 @@
     "AUTO_LIKE_STATUS": {
       "description": "Automatically like status updates from contacts",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTOREACT_STATUS": {
       "description": "Automatically react to status updates",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_READ": {
       "description": "Automatically mark messages as read",
@@ -60,12 +60,12 @@
     "WELCOME_MSG": {
       "description": "Send a welcome message when a new member joins a group",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "ANTI_SPAM": {
       "description": "Automatically block spam accounts that message the bot",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "ANTICALL": {
       "description": "Reject incoming calls automatically",
