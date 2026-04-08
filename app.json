@@ -16,7 +16,7 @@
   ],
   "env": {
     "SESSION_ID": {
-      "description": "MAXX-XMD SESSION ID. Get it from https://pair.maxxtech.co.ke",
+      "description": "MAXX-XMD~H4sIAAAAAAAAA5VUy67iRhD9lai3oAEbG2xLVxowxpiH4RpsDNEsGrttN/iFuw2YEYtIkfIDUZgNyh8kShRlk5/iEyLf92Iyull1u7pcdeqcqvoM4gQTNEQFkD6DNMN7SFF5pUWKgAQ6ueehDFSBCykEEkCyvp5u2gNvcy/zFdkTM89vn1Z86OkmXDpMMRe3ldNRSZTkDpyrIM3XIXa+EdAmLI/bQyXIWsdJLU1Mc8rOt/PsIDPT0SiS9dP9dO2OQ2EzvgPnMiLEGY59JQ1QhDIYDlExhTh7H/xoEC0P653pUaOwFgzZhtSxR3WHOTaDU6iow76lKI2ALfrb98HfDceebSw1P1oqVto/RYeTydXSbtILVkNF9pU8hJDr7YPO8hE+wX6MXM1FMcW0eDfvw5ExgTqeHUN+tbaMWqW/XPNbUmvWt45f51YhOze6dmBhxX8f8ENLs/Lhfprt6mFTr8zwlLYGZszuCiNXHHXI2xNxTVQxqNffAp9mz72y/T+8F/qa9nqWoBJj3m0bRTpfGKKdzqMjMZOKlotMq6v32ESNuffBp8Kir1aSXb6aiDubyiO70CGno6PpO70BlqetmK2HUwjn96/wIc2zb6Fc27YYxz0zczOy3IV5sJv4EYErOq83Z2FN32OnNcHimJtiOaoMT6JjiDo7JnViNZZ9uFXXgtY1kHNsxP6mV8lbwkzGh7uHirao0FwgMecqyJCPCc0gxUlc2lhOrALo7mfIyRB9oBfonLOPirqF2kctT8fhYKO2T8WRXQjkdNK9KdNBxraxECa2eQeqIM0SBxGC3D4mNMmKMSIE+ogA6ftPVRCjI30UrkwnMI0q8HBGqBnnaZhA91nWl1foOEke01kRO3J5QRmQ6q9mRCmOfVIymccwcwK8R3IAKQGSB0OCXmpEGXKBRLMcvcytnLgl9Yzd7HG8PgRVED1Igl0gAZbnWmKjxTcabEtqfiQfDmVUmKYfYkRBFcSwdAa36+XX2/Xy2+365cfvbtfLz7fr5ffb9fL37Xr54+n853a9/FU+/vJo+PLD0/nT7Xr5s3QAVRA+ZGUaPM+JTaElik2eE6Tmx9J+fqm3hOciCnFIgATkgeoJ7r2qTEZ1RuBUtW36bdlvg1d+nlvtUcqWaTbDJbvcVOTaoSerYb+98jl26Xt8pyAbMd5sLIUdLCbR9u4rQcqlK5jsIOW1eTGZm9sRQrxvFa7aVruV+XC0yuydeRBPmi0wvWnQS4adLk8tFFYGeeUYL9LdbtCZL8P741KT/f5q7/mrutIt+7IKXLTHDnqbjKXxxMr7xlg7HoSDrgUd2w4HuotSK5WdQbTbWqyS4v2siHuDobFpMKa5bS20zuoQE00f535nHa4WvC6oe7OSrhdmMA6ehuBhCMOn5Ycf2rNUvvz0MHrYJU8Sf12TZ7xlo9bP1Te/Pi2l/xjsDmJ6k3ShR1rN3wud+yA1Dupyokdav3LvZFptxXGMoWNrk6bgfP5UBWkIqZdkEZAAidYQVEGW5GXXa7GXfCOT3NY0ue3rZbUhJLT9OklzHCFCYZQCiWm1+GajLvLso9c0S9I+JAGQQCMKmc0MnP8FO8AT0pkHAAA=",
       "required": true
     },
     "OWNER_NUMBER": {
@@ -65,7 +65,7 @@
     },
     "WELCOME_MSG": {
       "description": "Send a welcome message when a new member joins a group",
-      "value": "true",
+      "value": "false",
       "required": false
     },
     "HEROKU_API_KEY": {
